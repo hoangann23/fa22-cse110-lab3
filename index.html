@@ -86,6 +86,57 @@
       <img src="screenshots/example.png" alt="sample screenshot" width="1000" height="600">
     </section>
 
+    <form>
+      <fieldset>
+        <legend>User:</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="day">Today's date:</label>
+        <input type="date" id="day" name="day"><br><br>
+
+        <input type="checkbox" name="CS Major">
+        <label for="CS Major">CS Major</label><br>
+
+        <h3>Rate this class</h3>
+        <input type="radio" id="1" name="rating" value="1">
+        <label for="1">1</label><br>
+        <input type="radio" id="2" name="rating" value="2">
+        <label for="2">2</label><br>
+        <input type="radio" id="3" name="rating" value="3">
+        <label for="3">3</label><br>
+        <input type="radio" id="4" name="rating" value="4">
+        <label for="4">4</label><br>
+        <input type="radio" id="5" name="rating" value="5">
+        <label for="5">5</label><br><br>
+
+        <p><label for="Meeting Summary">Group Meeting Summary:</label></p>
+        <textarea id="Meeting Summary" name="Meeting Summary" rows="10" cols="50"></textarea><br><br>
+
+        <label for="role">What is your role</label>
+        <input list="roles" name="role" id="role">
+        <datalist id="roles">
+          <option value="Lead">Lead</option>
+          <option value="TA">TA</option>
+          <option value="Developer">Developer</option>
+          <option value="Planner">Planner</option>
+          <option value="Designer">Designer</option>
+        </datalist><br><br>
+        <label for="year">What year are you</label>
+        <select name="year" id="year">
+          <option value="1st year">1st year</option>
+          <option value="2nd year">2nd year</option>
+          <option value="3rd year">3rd year</option>
+          <option value="4th year">4th year</option>
+          <option value="5th year">5th year</option>
+          <option value="Other">Other</option>
+        </select><br><br>
+        <button type="button" onclick="alert('Nothing happened...')">Do not push this button</button><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
     <footer>
       <p>Author: Ann Luong</p>
     </footer>
