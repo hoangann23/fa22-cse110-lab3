@@ -29,7 +29,7 @@ details {
     font-family: "myFont";
 }
 
-h2{
+h2, h3{
     background-color: lightgray;
     position: sticky;
     top: 0;
@@ -82,4 +82,40 @@ input:active {
 @font-face {
     font-family: "myFont";
     src: url(assets/FuzzyBubbles-Regular.ttf) format("truetype");
+}
+
+.needsAddressing {
+    color: red;
+}
+
+#MeetingSummary {
+    background-color: lightcyan;
+}
+
+* {
+    font-size: 1em;
+}
+
+p {
+    font-family: "myFont";
+}
+
+a[href$=".edu"] {
+    color: red;
+}
+
+section p {
+    color: purple;
+}
+
+section > p {
+    color: blue;
+}
+
+div ~ p {
+    background-color: lightyellow;
+}
+
+h3 + p {
+    font-weight: bold;
 }
