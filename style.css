@@ -17,12 +17,14 @@ h1 {
 /* background color of navigation bar */
 nav {
     background-color: hsl(238, 40%, 80%);
-    width: 245px;
+    width: 275px;
+    font-size: 2.5ex;
 }
 
 summary {
     text-align: left;
     text-decoration: underline overline darkblue;
+    font-size: 1rem;
 }
 details {
     text-align: center;
@@ -51,8 +53,8 @@ img {
 
 audio {
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 0mm;
+    right: 0mm;
 }
 
 video {
