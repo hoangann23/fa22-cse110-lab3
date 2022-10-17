@@ -63,3 +63,11 @@ form {
     position: relative;
     bottom: 300px;
 }
+
+button:hover {
+    background-color: red;
+}
+
+input:active {
+    background-color: cyan;
+}
