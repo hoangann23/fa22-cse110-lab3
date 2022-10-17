@@ -10,6 +10,8 @@ h1 {
     color: #250042;
     font-size: 35px;
     line-height: normal;
+    position: sticky;
+    top: 0;
 }
 
 /* background color of navigation bar */
@@ -26,8 +28,10 @@ details {
     text-align: center;
 }
 
-h2 {
-    line-height: 40%;
+h2{
+    background-color: lightgray;
+    position: sticky;
+    top: 0;
 }
 
 ul {
@@ -35,4 +39,27 @@ ul {
     min-width: 100px;
     max-width: 150px; 
     height: 1;
+}
+
+img {
+    position: relative;
+    left: 400px;
+    width: 350px;
+    height: 350px;
+}
+
+audio {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+video {
+    position: relative;
+    bottom: 400px;
+}
+
+form {
+    position: relative;
+    bottom: 300px;
 }
