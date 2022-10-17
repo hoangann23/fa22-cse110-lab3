@@ -1,0 +1,15 @@
+/* font color of header section */
+header {
+    color:slategrey;
+}
+
+/* Background color of the title of the page */
+h1 {
+    background-color: rgb(42, 202, 235);
+    color: #250042;
+}
+
+/* background color of navigation bar */
+nav {
+    background-color: hsl(238, 40%, 80%)
+}
