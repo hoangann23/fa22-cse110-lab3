@@ -15,6 +15,7 @@ h1 {
 /* background color of navigation bar */
 nav {
     background-color: hsl(238, 40%, 80%);
+    width: 245px;
 }
 
 summary {
@@ -27,4 +28,11 @@ details {
 
 h2 {
     line-height: 40%;
+}
+
+ul {
+    border: 2px solid darkblue;
+    min-width: 100px;
+    max-width: 150px; 
+    height: 1;
 }
