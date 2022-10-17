@@ -2,6 +2,18 @@
 header {
     color:slategrey;
     line-height: 15pt;
+    border-style:dashed;
+    border-color:blue;
+    border-width: 2px;
+    padding-left: 15px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 300px;
 }
 
 /* Styles the title of the page */
@@ -40,8 +52,9 @@ h2, h3{
 ul {
     border: 2px solid darkblue;
     min-width: 100px;
-    max-width: 150px; 
+    max-width: 500px; 
     height: 1;
+    margins: auto;
 }
 
 img {
@@ -120,4 +133,18 @@ div ~ p {
 
 h3 + p {
     font-weight: bold;
+}
+
+ul.members {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+ol {
+    border-style:dotted;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 0px 0px 0px 20px;
+    padding: 15px 0px 15px 30px;
 }
