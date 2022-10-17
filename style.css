@@ -1,15 +1,30 @@
-/* font color of header section */
+/* Styles the header section */
 header {
     color:slategrey;
+    line-height: 15pt;
 }
 
-/* Background color of the title of the page */
+/* Styles the title of the page */
 h1 {
     background-color: rgb(42, 202, 235);
     color: #250042;
+    font-size: 35px;
+    line-height: normal;
 }
 
 /* background color of navigation bar */
 nav {
-    background-color: hsl(238, 40%, 80%)
+    background-color: hsl(238, 40%, 80%);
+}
+
+summary {
+    text-align: left;
+    text-decoration: underline overline darkblue;
+}
+details {
+    text-align: center;
+}
+
+h2 {
+    line-height: 40%;
 }
