@@ -26,6 +26,7 @@ summary {
 }
 details {
     text-align: center;
+    font-family: "myFont";
 }
 
 h2{
@@ -76,4 +77,9 @@ input:active {
     body {
         background-color: lightyellow;
     }
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url(assets/FuzzyBubbles-Regular.ttf) format("truetype");
 }
